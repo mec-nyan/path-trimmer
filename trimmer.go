@@ -48,7 +48,11 @@ func main() {
 					path += "/"
 				}
 			} else {
-				path += f[:3] + "…/"
+				if len(f) > 3 {
+					path += f[:3] + "…/"
+				} else {
+					path += f + "/"
+				}
 			}
 		}
 	}
