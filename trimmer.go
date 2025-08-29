@@ -28,9 +28,7 @@ func main() {
 		keepDirs = n
 	}
 
-	if strings.Contains(path, home) {
-		path = strings.Replace(path, home, "~", 1)
-	}
+	path = strings.Replace(path, home, "~", 1)
 
 	folders := strings.Split(path, "/")
 

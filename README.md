@@ -11,7 +11,7 @@ Sometimes you work on deeply nested directories and the path to your _pwd_ becom
 ## Get it
 
 ```sh
-$ go get github.com/mec-nyan/path-trimmer@latest
+$ go install github.com/mec-nyan/path-trimmer@latest
 ```
 
 ## Use it
